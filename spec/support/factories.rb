@@ -53,4 +53,22 @@ end
     end
   end
 
+#   factory :comment do
+#     content
+#   end
+
+# sequence :content do
+#   "{n} content"
+#   end
+
+  # trait :with_comments do
+  #   ignore do
+  #     number_of_comments 1
+  #   end
+  #   after(:create) do |comment, evaluator|
+  #     create_list(:comment, evaluator.number_of_comments,comment: comment)
+  #     end
+  #   end
+
+
 end
